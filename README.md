@@ -1,2 +1,2 @@
-Peer Reviewed by:
-Review: 
+Peer Reviewed by:Raudel Alvarado
+Review: This project is great looks great and works great. i would only change a couple things like the text is yellow with the font size is a little difficult to read. i would also keep the interests and accomplishments in the same place throughout the website. carousel works fine no issues maybe next time dont do it in chronological order because you can go back on the very first slide and it takes you to the end. Figma Macthes up evrything is good.
