@@ -16,7 +16,23 @@ body {
   background-attachment: fixed;
 }
 
+.padMe {
+    padding-left: 24px;
+    font-size: 10px;
+}
+
+
 /* Page 2 */
+
+.dBall2 {
+    margin-top: 18px;
+}
+
+.dBall {
+    margin-top: 17px;
+}
+
+
 
 .pgBody {
   background: linear-gradient(#65a463, #0577b3);
@@ -35,7 +51,7 @@ body {
   display: flex;
   padding-top: 45px;
   font-family: Manga;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font-size: 22px;
   color: #fdd406;
@@ -53,7 +69,7 @@ body {
   display: flex;
   padding-top: 100px;
   font-family: Manga;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font-size: 22px;
   color: #fdd406;
@@ -72,7 +88,7 @@ body {
   display: flex;
   padding-top: 55px;
   font-family: Manga;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font-size: 22px;
   color: #fdd406;
@@ -91,7 +107,7 @@ body {
 
 .textAlign {
   font-family: Manga;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
   font-size: 22px;
   color: #fdd406;
@@ -102,6 +118,11 @@ body {
 .alignRight {
   display: flex;
   justify-content: center;
+}
+
+
+.alignMe {
+    margin-top: 50px;
 }
 
 .btns {
@@ -120,8 +141,17 @@ body {
     -webkit-text-stroke-color: black;
 }
 
-
+.bigBtn:hover {
+    color: #bd5709;
+  }
 
 .btns:hover {
   color: #bd5709;
+}
+
+.opacity
+{  
+    background-color: #ffffff23;
+    height: 100px;
+     
 }
