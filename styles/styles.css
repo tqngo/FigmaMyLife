@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Manga";
+  src: url(/assets/mangatb.ttf);
+}
+
+@font-face {
+  font-family: "Saiyan";
+  src: url(/assets/Saiyan-Sans.ttf);
+}
+
+/* Page 1 */
+body {
+  background-image: url(/assets/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Page 2 */
+
+.pgBody {
+  background: linear-gradient(#65a463, #0577b3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.pg2Image1 {
+    float: left;
+    padding-top: 15px;
+  }
+
+.bodyText {
+  display: flex;
+  padding-top: 45px;
+  font-family: Manga;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 22px;
+  color: #fdd406;
+  text-align: center;
+ 
+
+}
+
+.pg2Image2 {
+    float: right;
+    margin-right: 20px;
+  }
+
+.bodyText2 {
+  display: flex;
+  padding-top: 100px;
+  font-family: Manga;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 22px;
+  color: #fdd406;
+  text-align: center;
+  text-wrap: balance;
+}
+
+
+.pg2Image3 {
+  float: left;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.bodyText3 {
+  display: flex;
+  padding-top: 55px;
+  font-family: Manga;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 22px;
+  color: #fdd406;
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* Page 3 */
+
+.carousel-item img {
+  width: auto;
+  height: 500px;
+  margin: auto;
+  display: block;
+}
+
+.textAlign {
+  font-family: Manga;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 22px;
+  color: #fdd406;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.alignRight {
+  display: flex;
+  justify-content: center;
+}
+
+.btns {
+  font-family: Saiyan;
+  font-size: 40px;
+  color: #fdd406;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.bigBtn {
+    font-family: Saiyan;
+    font-size: 100px;
+    color: #fdd406;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+
+
+.btns:hover {
+  color: #bd5709;
+}
