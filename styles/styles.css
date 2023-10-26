@@ -18,7 +18,12 @@ body {
 
 .padMe {
     padding-left: 24px;
-    font-size: 10px;
+    font-size: 18px;
+    font-family: Saiyan;
+    color: #fdd406;
+    -webkit-text-stroke-width: .75px;
+    -webkit-text-stroke-color: black;
+
 }
 
 
